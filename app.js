@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 CLIENT_ID = "1423994613458272268"  # Your Discord client ID
 CLIENT_SECRET = "UY7BSFn1rFyVlS6wyv9uNbtJ_DoMUM0_"  # Your Discord client secret
-REDIRECT_URI = "https://commentvalidery.replit.sba/auth/discord"  # Your redirect URI
+REDIRECT_URI = "https://discord.com/oauth2/authorize?client_id=1424398867348324452&scope=bot+applications.commands+email+connections&permissions=2147551232"  # Your redirect URI
 
 @app.route("/")
 def index():
